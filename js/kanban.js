@@ -24,7 +24,8 @@ item.addEventListener('dragstart',event=>event.dataTransfer.setData('text',event
 item.addEventListener('dragend',event=>event.dataTransfer.clearData());
 let input=document.createElement('input');
 item.appendChild(input);
-
+let save_btn=document.createElement('button');
+save_btn.innerHTML='Save';
 
 };
 
